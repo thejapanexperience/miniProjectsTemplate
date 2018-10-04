@@ -1,7 +1,7 @@
 // Fonts --------------------------------------------------------------------
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu');
 
-.font1{
+.font1 {
   font-family: 'Ubuntu', sans-serif;
 }
 .font2 {
@@ -32,7 +32,6 @@
   font-size: $responsive;
 }
 
-
 //Colors --------------------------------------------------------------------
 .color1 {
   color: #311847;
@@ -46,17 +45,17 @@ $color2: #e93e43;
 
 // $colorGradient1: #EC4067;
 // $colorGradient1: rgba(137,52,121,0.8);
-$colorGradient1: rgba(134,11,180,0.8);
+$colorGradient1: rgba(134, 11, 180, 0.8);
 // $colorGradient2: #893479;
 // $colorGradient2: rgba(236,64,103,0.8);
-$colorGradient2: rgba(230,20,100,0.8);
+$colorGradient2: rgba(230, 20, 100, 0.8);
 // $colorGradient3: rgba(232,61,66,0.9);
-.transition1{
+.transition1 {
   transition: all 0.2s;
   -webkit-transition: all 0.2s;
 }
 
-.transition2{
+.transition2 {
   transition: all 1s;
   -webkit-transition: all 1s;
 }
@@ -81,7 +80,7 @@ div {
   position: fixed;
   opacity: 1;
   z-index: -2;
-  background-image: url("../images/richardCollageWide01.jpg");
+  background-image: url('../images/richardCollageWide01.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat-y;
@@ -119,10 +118,26 @@ div {
   // background-color: black;
   // background-color: rgba(128,0,128,0.4);
   background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left, $colorGradient1 , $colorGradient2); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, $colorGradient1, $colorGradient2); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, $colorGradient1, $colorGradient2); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, $colorGradient1 , $colorGradient2); /* Standard syntax */
+  background: -webkit-linear-gradient(
+    left,
+    $colorGradient1,
+    $colorGradient2
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    right,
+    $colorGradient1,
+    $colorGradient2
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    right,
+    $colorGradient1,
+    $colorGradient2
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    to right,
+    $colorGradient1,
+    $colorGradient2
+  ); /* Standard syntax */
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
@@ -137,7 +152,7 @@ div {
   width: 100%;
   overflow: hidden;
   height: 100px;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 5;
 }
 
@@ -182,7 +197,6 @@ div {
 
 // ----------------------------------------------------------------------------------------------------------------------------------------
 // ----------------------------------------------------------------------------------------------------------------------------------------
-
 
 //MiniProject --------------------------------------------------------------------
 

@@ -1,1 +1,1 @@
-web: npm run diststart
+web: npm run parcel
