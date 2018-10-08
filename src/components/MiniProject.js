@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router";
 
 const MiniProject = () => {
+  console.log('MiniProject');
   return (
     <div className="section1Box">
       <div className="section1">

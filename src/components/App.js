@@ -2,6 +2,7 @@ import React from "react";
 import MiniProject from "./MiniProject";
 
 const App = () => {
+  console.log('App');
   return (
     <div>
       <div className="backgroundImage" />
